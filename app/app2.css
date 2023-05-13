@@ -1,0 +1,60 @@
+.header {
+  align-items: center;
+  background-color: #072146;
+  color: #fff;
+  height: 50px !important;
+}
+
+.footer {
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #072146;
+  color: #fff;
+  text-align: center;
+  height: 50px !important;
+  width: 100%;
+}
+
+.box-tabs {
+  align-items: center;
+  background-color: #043263;
+  color: #fff;
+  width: 100%;
+  height: 50px !important;
+}
+
+.tabs {
+  justify-content: center;
+}
+
+.tabs--tab {
+  display: flex;
+  width: 20%
+}
+
+.tabs input:checked+label {
+  border-bottom: 4px solid #5bbeff
+}
+
+.tabs input {
+  display: none;
+  cursor: pointer
+}
+
+.tabs a.active {
+  border-bottom: 4px solid #5bbeff
+}
+
+.background-bbva-1 {
+  background-image: url("../public/img/fondoBbva.JPG");
+  background-color: #cccccc;
+ }
+
+.centered-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
